@@ -1,0 +1,170 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+    overflow: hidden;
+  background-color: #333;
+}
+li{
+  border:2px solid blue;
+  display:inline-block;
+  float: left;
+  mardin:0.5rem;
+}
+a {
+  text-decoration: none;
+  background-color:#333;
+  color: #ffffff;
+  padding:0.7rem;
+  display:block;
+  font-size:25px;
+}
+
+a:hover {
+  background-color: #6699ff;
+  color: #000000;
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+li {
+float: left;
+border-right: 1px solid #bbb;
+}
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 24px 26px;
+text-decoration: none;
+}
+
+body{
+		background: url("https://pic3.zhimg.com/v2-8d10e3e4d8f49476b24ae7e74b44e6b9_r.jpg?source=1940ef5c") no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -o-background-size: cover;                
+                background-size: cover;
+}
+
+h1 {
+color: #000000;
+font-size: 2em;
+padding-top: 100px;
+width: 100%;
+text-align: center; 
+}
+h2 {
+border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+color: #000000;
+font-weight: 100;
+font-size: 30px;
+line-height: 24px;
+padding-bottom: 30px;
+text-align: left;
+width: 70%;
+Font-weight:bold; 
+}
+
+
+h4 {
+border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+color: #000000;
+font-weight: 100;
+font-size: 30px;
+line-height: 50px;
+padding-bottom: 30px;
+text-align: left;
+width: 70%;
+Font-weight:bold; 
+}
+
+h5 {
+border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+color: #000000;
+font-weight: 100;
+font-size: 30px;
+line-height:24px;
+padding-bottom: 30px;
+text-align: left;
+width: 70%;
+Font-weight:bold; 
+}
+h6 {
+border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+color: #000000;
+font-weight: 100;
+font-size: 30px;
+line-height: 24px;
+padding-bottom:30px;
+text-align: center;
+width: 100%;
+Font-weight:bold; 
+}
+
+table, th, td {
+  border:1px solid black;
+  font-size:24px;
+}
+p{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size:28px;
+  font-family: Helvetica;
+}
+
+.byline {
+font-family: Helvetica;
+color: #000000;
+float: left;
+font-size: 30px;
+padding-left: 10px;
+text-transform: uppercase;
+}
+
+.caption {
+display: block;
+font-family: 'Playfair Display', serif;
+font-size: 34px;
+font-style: italic;
+line-height: 34px;
+margin-left: 20px;
+padding: 10px;
+position: relative;
+text-align: center;
+top: 50%;
+width: 90%;
+color: #000000;
+}
+.content {
+padding: 40px;
+}
+.image {
+background-image: url("		https://tse1-mm.cn.bing.net/th/id/OIP-C.Lx5ngcKxN_LiK7na2zdfbAHaFQ?pid=ImgDet&rs=1");
+background-size: cover;
+background-position: left;
+height: 800px;
+}
+.writer-img {
+-webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+-moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+float: center;
+width: 100px;
+height: 100px;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #fcc;
+   color: #000000;
+   text-align: center;
+}
